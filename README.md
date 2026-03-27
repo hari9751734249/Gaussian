@@ -15,7 +15,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 3.Perform forward elimination to transform the augmented matrix into an upper triangular matrix by making the elements below the main diagonal zero.
 
 4.Apply back substitution to calculate the values of the unknowns from the last row upwards and print the final solution.
-
+```
 ## Program:
 
 import numpy as np
@@ -63,7 +63,7 @@ for i in range(n-2,-1,-1):
 for i in range(n):
     print('X%d = %0.2f' %(i,x[i]), end = ' ')
 
-
+```
 ## Output:
 
 <img width="1235" height="553" alt="image" src="https://github.com/user-attachments/assets/1c503f3c-b228-4c38-8357-3524949caf7b" />
